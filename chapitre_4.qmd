@@ -416,6 +416,8 @@ data/sondages_bruts/         # Données avec infos personnelles
 ~$*.docx
 ```
 
+**Important** : Il est essentiel d'inclure dans ce dossier tout fichier contenant des clés d'accès (API Keys) ou des mots de passe. Une clé publiée par erreur sur GitHub peut être volée en quelques secondes par un individu malintentionné.
+
 **Étape 4** : Ajout de votre code et de vos fichiers
 
 Ajoutez vos fichiers R contenant le code pour vos analyses dans le répertoire. Par exemple, vous pouvez avoir des fichiers `analyse_medias.R` et `analyse_sondages.R`.
